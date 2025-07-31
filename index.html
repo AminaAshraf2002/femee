@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feme - Empowering Minds. Healing Hearts.</title>
+
+    <!-- External CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/logo.png" type="image/png">
+
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="/images/logo.png" alt="Feme - Empowering Minds. Healing Hearts." class="logo-image">
+                
+                <!-- Fallback div that shows if image fails to load -->
+                <div class="logo-fallback" style="display: none;">
+                    <i class="fas fa-heart"></i>
+                    <span>Feme</span>
+                </div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <a href="#contact" class="cta-btn">Get Started</a>
+            
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 data-aos="fade-up" data-aos-delay="200">
+                    Find The Right <span class="highlight">Mental Health</span> Professional For Your Journey
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="400">
+                    At Feme, we believe that mental well-being is a right—not a privilege. Connect with certified therapists, counselors, and mental health professionals who understand your unique needs.
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#services" class="btn-primary">Start Your Journey</a>
+                    <a href="#about" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="400">
+                <div class="hero-image-container">
+                    <img src="./images/3.jpeg" 
+                         alt="Mental Health Professional" 
+                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjlGQUZCIi8+CjxjaXJjbGUgY3g9IjIwMCIgY3k9IjEwMCIgcj0iNDAiIGZpbGw9IiM2QjQ2QzEiLz4KPHN2ZyB4PSIxNzAiIHk9IjcwIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiPgo8cGF0aCBkPSJNMzAgMTVDMzAgNi43MTU3MyAyMy4yODQzIDAgMTUgMEM2LjcxNTczIDAgMCA2LjcxNTczIDAgMTVDMCAyMy4yODQzIDYuNzE1NzMgMzAgMTUgMzBDMjMuMjg0MyAzMCAzMCAyMy4yODQzIDMwIDE1WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+CjwvcGF0aD4KPHN2ZyB4PSIxNzAiIHk9IjE1MCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjEwMCI+CjxyZWN0IHdpZHRoPSI2MCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiM2QjQ2QzEiIHJ4PSIzMCIvPgo8L3N2Zz4KPHR4dCB4PSIyMDAiIHk9IjI3MCIgZmlsbD0iIzRCNTU2MyIgZm9udC1mYW1pbHk9IkludGVyIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNTAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5NZW50YWwgSGVhbHRoIFByb2Zlc3Npb25hbDwvdGV4dD4KPC9zdmc+';">
+                    
+                    <!-- Floating Stats -->
+                    <div class="floating-element" data-aos="fade-up" data-aos-delay="800">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>500+</h4>
+                                <p>Therapists</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-element" data-aos="fade-up" data-aos-delay="1000">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>10K+</h4>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-element" data-aos="fade-up" data-aos-delay="1200">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>4.9</h4>
+                                <p>Rating</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Why We Started <span class="highlight">Feme</span></h2>
+                <p class="section-subtitle">
+                    We saw the gap. We felt the silence. We knew that mental health conversations were missing in our communities.
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <p>
+                        We saw the gap. We felt the silence. We knew that mental health conversations were missing in our communities—and we couldn't ignore it.
+                    </p>
+                    <p>
+                        That's why we started Feme: a platform built on empathy, backed by science, and powered by technology. This isn't just a company for us—this is where we've poured our entire hearts.
+                    </p>
+                    
+                    <div class="mission-points">
+                        <div class="mission-point" data-aos="fade-up" data-aos-delay="400">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Spread mental health awareness through accessible psycho-education</span>
+                        </div>
+                        <div class="mission-point" data-aos="fade-up" data-aos-delay="600">
+                            <i class="fas fa-user-md"></i>
+                            <span>Provide world-class therapy through certified mental health professionals</span>
+                        </div>
+                        <div class="mission-point" data-aos="fade-up" data-aos-delay="800">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Make therapy inclusive and safe for everyone—regardless of gender, background, or identity</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual" data-aos="fade-left" data-aos-delay="400">
+                    <img src="./images/about (2).jpeg" 
+                         alt="Mental Health Support" 
+                         class="about-image"
+                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjRjlGQUZCIi8+CjxjaXJjbGUgY3g9IjIwMCIgY3k9IjE1MCIgcj0iNjAiIGZpbGw9IiM2QjQ2QzEiIG9wYWNpdHk9IjAuMSIvPgo8cGF0aCBkPSJNMjAwIDEyMEM4OC41NzQzIDEyMCAyMDAgODguNTc0MyAyMDAgMjAwQzIwMCAzMTEuNDI2IDI2OC41NzQgMzgwIDM4MCAzODBDNDkxLjQyNiAzODAgNTYwIDMxMS40MjYgNTYwIDIwMEM1NjAgODguNTc0MyA0OTEuNDI2IDIwIDM4MCAyMEMyNjguNTc0IDIwIDIwMCA4OC41NzQzIDIwMCAyMDBaIiBmaWxsPSIjNkI0NkMxIiBvcGFjaXR5PSIwLjA1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBmaWxsPSIjNEI1NTYzIiBmb250LWZhbWlseT0iSW50ZXIiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI1MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk1lbnRhbCBIZWFsdGggU3VwcG9ydDwvdGV4dD4KPC9zdmc+';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">How <span class="highlight">Feme</span> Works</h2>
+                <p class="section-subtitle">
+                    Simple, secure, and accessible mental health care in three easy steps
+                </p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">1</div>
+                    <h3>Sign Up Securely</h3>
+                    <p>Create your private profile and access a safe, confidential environment designed for your mental health journey.</p>
+                </div>
+                
+                <div class="step-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">2</div>
+                    <h3>Choose a Therapist</h3>
+                    <p>Get matched with licensed professionals based on your needs, preferences, and therapeutic goals.</p>
+                </div>
+                
+                <div class="step-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="step-number">3</div>
+                    <h3>Begin Your Healing</h3>
+                    <p>Start online therapy sessions—anytime, anywhere, on your schedule with complete confidentiality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+                <p class="section-subtitle">
+                    Comprehensive mental health support tailored to your unique needs
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>One-on-One Therapy</h3>
+                    <p>Private online sessions with experienced psychologists, counselors, and clinical therapists tailored to your specific mental health needs.</p>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Mental Health Education</h3>
+                    <p>Interactive workshops, webinars, and comprehensive resources designed for schools, colleges, and workplaces to promote mental wellness.</p>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community Support Circles</h3>
+                    <p>Facilitated group sessions where you can share experiences, listen to others, and grow together in a supportive environment.</p>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="service-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Emergency Counseling</h3>
+                    <p>24/7 quick-access support for urgent emotional or psychological distress with trained crisis intervention specialists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Join Our Mission</h2>
+                <p>Your mental health journey is deeply personal—but you're never alone.</p>
+                <p>With Feme, you're joining a movement of compassion, care, and courage.</p>
+                <a href="#contact" class="cta-btn-large">Start Your Journey Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">
+                    Ready to take the first step? We're here to support you on your mental health journey.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="200">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kochi, Kerala, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="400">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>
+                                <a href="mailto:hello@feme.co.in" style="color: inherit; text-decoration: none;">
+                                    hello@feme.co.in
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="600">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>
+                                <a href="tel:+91XXXXXXXXX" style="color: inherit; text-decoration: none;">
+                                    +91 XXXXX XXXXX
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="800">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <p>
+                                <a href="https://www.feme.co.in" target="_blank" style="color: inherit; text-decoration: none;">
+                                    www.feme.co.in
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="400">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">How can we help you?</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your mental health needs or any questions you have..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <p>&copy; 2025 Feme. All Rights Reserved.</p>
+                <p>Empowering Minds. Healing Hearts. 💜</p>
+            </div>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#ethics">Code of Ethics</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
